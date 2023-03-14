@@ -22,17 +22,17 @@ let package = Package(
 				dependencies: [
 					"GXGAMUI",
 					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.iOS])),
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .watchOS, .iOS])),
-					.product(name: "GXDataLayer", package: "GXDataLayer", condition: .when(platforms: [.tvOS, .iOS])),
-					.product(name: "GXFoundation", package: "GXFoundation", condition: .when(platforms: [.tvOS, .iOS])),
-					.product(name: "GXGAM", package: "GXGAM", condition: .when(platforms: [.tvOS, .watchOS, .iOS])),
-					.product(name: "GXObjectsModel", package: "GXObjectsModel", condition: .when(platforms: [.tvOS, .iOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .tvOS, .watchOS])),
+					.product(name: "GXDataLayer", package: "GXDataLayer", condition: .when(platforms: [.iOS, .tvOS])),
+					.product(name: "GXFoundation", package: "GXFoundation", condition: .when(platforms: [.iOS, .tvOS])),
+					.product(name: "GXGAM", package: "GXGAM", condition: .when(platforms: [.iOS, .tvOS, .watchOS])),
+					.product(name: "GXObjectsModel", package: "GXObjectsModel", condition: .when(platforms: [.iOS, .tvOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXGAMUI",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXGAMUI-1.0.0-beta+20230309171424.xcframework.zip",
-			checksum: "bb1e0fb14ab0013fa9ffe28c3eb4cc653e50f00bcdfb37864886f6da52e9ef33"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXGAMUI-1.0.0-beta+20230314121632.xcframework.zip",
+			checksum: "7b72c7684b79f457cef883e6446727c3839c0c9365d1932f6d67bde008dd5f7b"
 		)
 	]
 )
