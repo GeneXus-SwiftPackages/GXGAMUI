@@ -10,8 +10,8 @@ let package = Package(
 			targets: ["GXGAMUIWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "4.1.0-beta.6"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXGAM.git", exact: "4.1.0-beta.6")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "4.1.0-beta.7"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXGAM.git", exact: "4.1.0-beta.7")
 	],
 	targets: [
 		.target(name: "GXGAMUIWrapper",
@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXGAMUI",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXGAMUI-4.1.0-beta.6.xcframework.zip",
-			checksum: "e3af221129230237729a06e523740dadaf57f7d59c585ba6e9d25126f3b3f797"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXGAMUI-4.1.0-beta.7.xcframework.zip",
+			checksum: "93589adbf5814396f0d9c7e99dfa308ed571231ced632b736f5d792e7e7e3a91"
 		)
 	]
 )
